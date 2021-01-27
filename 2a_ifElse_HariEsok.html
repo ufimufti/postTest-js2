@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penentuan Hari Esok</title>
+</head>
+<body>
+    <script type="text/javascript">
+    
+
+    let today = prompt("Sekarang hari apa?");
+    let tomorrow;    
+   
+    
+    if (today == "senin") {
+            tomorrow = "besok adalah hari selasa";
+        } else if(today == "selasa"){
+            tomorrow = "besok adalah hari rabu";
+        } else if(today == "rabu"){
+            tomorrow = "besok adalah hari kamis";
+        } else if(today == "kamis"){
+            tomorrow = "besok adalah hari jumat";
+        } else if(today == "jumat"){
+            tomorrow = "besok adalah hari sabtu";
+        } else if(today == "sabtu"){
+            tomorrow = "besok adalah hari minggu";
+        } else if(today == "minggu"){
+            tomorrow = "besok adalah hari senin";
+        } else {
+            tomorrow = "coba cek lagi! tadi ngetik apa";
+        }
+    document.write(tomorrow)
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penentuan hari besok</title>
+</head>
+<body>
+   <script type="text/javascript">
+        
+        let today = prompt("Sekarang hari apa?");
+        let tomorrow;
+        
+        
+        switch (today) {
+            case "senin":
+                tomorrow = alert("besok adalah hari selasa")
+                break;
+            case "selasa":
+                tomorrow = alert("besok adalah hari rabu")
+                break;
+            case "rabu":
+                tomorrow = alert("besok adalah hari kamis")
+                break;
+            case "kamis":
+                tomorrow = alert("besok adalah hari jumat")
+                break;
+            case "jumat":
+                tomorrow = alert("besok adalah hari sabtu")
+                break;
+            case "sabtu":
+                tomorrow = alert("besok adalah hari minggu")
+                break;
+            case "minggu":
+                tomorrow = alert("besok adalah hari senin")
+                break;
+        
+            default:
+                tomorrow = alert("coba cek lagi!")
+                break;
+            }   
+
+   </script> 
+</body>
+</html>
